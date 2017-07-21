@@ -1,0 +1,159 @@
+/* lg */
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.maintenance .content {
+		margin: 0 30px;
+	}
+
+	.maintenance .main-content {
+		padding: 0 30px;
+	}
+
+	.maintenance .progress {
+		margin: 0 auto 50px;
+	}
+
+	.maintenance .footer {
+		padding: 0 30px;
+	}
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.maintenance .content {
+		margin: 0 60px;
+	}
+
+	.maintenance .main-content {
+		padding: 0 30px;
+	}
+
+	.maintenance .footer {
+		padding: 0 30px;
+	}
+
+	.maintenance .main-content h1 {
+		font-size: 25px;
+
+	}
+}
+
+/* xs */
+@media (max-width: 767px) {
+	.maintenance .content {
+		margin: 0 30px;
+	}
+
+	.maintenance .main-content {
+		padding: 0 15px;
+	}
+	.maintenance .main-content h1 {
+		font-size: 25px;
+	}
+
+	.maintenance .progress {
+		width: 453px;
+	}
+
+	.maintenance #counter {
+		margin: 0 10%;
+
+	}
+
+	.maintenance button.sub-btn,
+	.maintenance input[type="email"] {
+		width: 453px;
+		margin: 0 auto;
+	}
+	.maintenance input[type="email"] {
+		border-radius: 2px 2px 0 0;
+	}
+	.maintenance button.sub-btn {
+		border-radius: 0 0 2px 2px;
+	}
+	.maintenance .st-subscribe-message {
+		bottom: 120px;
+	}
+	.maintenance .footer {
+		padding: 0 15px;
+	}
+	.maintenance .footer .footer-left {
+		float: none;
+		text-align: center;
+		padding: 8px 0;
+	}
+
+	.maintenance .footer .footer-right {
+		float: none;
+		text-align: center;
+		padding: 8px 0;
+	}
+
+}
+@media (max-width: 585px) {
+	.maintenance .progress {
+		width: 100%;
+	}
+}
+/* XS Portrait */
+@media (max-width: 479px) {
+
+	.maintenance .main-content {
+		padding: 0 10px;
+	}
+
+	.maintenance #counter {
+		margin: 0 3%;
+		float: none;
+	}
+
+	.maintenance .content {
+		position: relative;
+		margin: 0 10px;
+		z-index: 999;
+	}
+	.maintenance .progress {
+		width: 100%;
+	}
+	.maintenance button.sub-btn {
+		width: 100%;
+		display: block;
+		border-radius: 0 0 2px 2px;
+		margin-left: 0;
+	}
+
+	.maintenance input[type="email"] {
+		border-radius: 2px 2px 0 0;
+	}
+
+	.maintenance #subscribe {
+		position: relative;
+		display: block;
+		border-collapse: separate;
+	}
+
+	.maintenance .st-subscribe-message {
+		top: 80px;
+		left: 10%;
+	}
+
+	.maintenance .footer {
+		padding: 0 1px;
+	}
+
+	.maintenance .footer .footer-left {
+		float: none;
+		text-align: center;
+		padding: 8px 0;
+	}
+
+	.maintenance .footer .footer-right {
+		float: none;
+		text-align: center;
+		padding: 8px 0;
+	}
+}
